@@ -8,29 +8,33 @@
   </head>
   <body>
     <header>
-      <div>
-        <span><img src="images/Group 1.svg" alt="" /></span>
+      <div class="header">
+        <div id="purple-box">
+          <span><img src="images/Group 1.svg" alt="" /></span>
+        </div>
+        <nav>
+          <ul class="top-nav-ul">
+            <li class="top-nav-li"><a href="#" class="top-nav-a">Home</a></li>
+            <li class="top-nav-li">
+              <a href="#" class="top-nav-a">About us</a>
+            </li>
+            <li class="top-nav-li"><a href="#" class="top-nav-a">Teams</a></li>
+            <li class="top-nav-li">
+              <a href="#" class="top-nav-a">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="button">Join our Community</a>
       </div>
-      <nav>
-        <ul class="top-nav-ul">
-          <li class="top-nav-li"><a href="#" class="top-nav-a">Home</a></li>
-          <li class="top-nav-li"><a href="#" class="top-nav-a">About us</a></li>
-          <li class="top-nav-li"><a href="#" class="top-nav-a">Teams</a></li>
-          <li class="top-nav-li">
-            <a href="#" class="top-nav-a">Contact us</a>
-          </li>
-        </ul>
-      </nav>
-      <a href="#" class="button">Join our Community</a>
     </header>
     <main>
       <article id="hero-section">
         <section id="hero-writing-section">
-          <h1>
+          <h2 id="hero-heading">
             Unlock the Future with<br />
             <strong class="blockchain-bold">Blockchain</strong>
-          </h1>
-          <p>
+          </h2>
+          <p class="top-lorem-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, odit
             doloremque<br />
             vitae, iusto possimus quisquam veritatis obcaecati eaque ut<br />
@@ -39,52 +43,67 @@
           <a href="#" class="button">Join our Community</a>
         </section>
         <section id="blockchain-img">
-          <img src="images/bfl.png" alt="blockchain image" class="blockchain-image"/>
+          <img
+            src="images/bfl.png"
+            alt="blockchain image"
+            class="blockchain-image"
+          />
         </section>
       </article>
       <article id="">
-        <div class="later"
-        >
-        <img src="images/octicon_play-24.svg" alt="" /></div>
+        <div class="later">
+          <img src="images/octicon_play-24.svg" alt="" />
+        </div>
         <section class="our-story-video-section">
           <h2>Our Story</h2>
           <div id="video"></div>
         </section>
-        <section class="learn-list">
-          <h2>What you would learn</h2>
-          <ul>
-            <div class="learn-row-list">
-              <li><a href="#">Blockchain security</a></li>
-              <li><a href="#">Blockchain security</a></li>
-              <li><a href="#">Blockchain security</a></li>
-            </div>
-            <div class="learn-row-list">
-              <li><a href="#">Foundry</a></li>
-              <li><a href="#">Ether Js and Web3 Js</a></li>
-              <li><a href="#">Solidity</a></li>
-            </div>
-            <div class="learn-row-list">
-              <li><a href="#">Smart Contract Auditing</a></li>
-              <li><a href="#">Tokenomics</a></li>
-              <li><a href="#">Decentralized Finance</a></li>
-            </div>
+        <section id="learn-list">
+          <h2 class="learn-list-heading">What you would learn</h2>
+          <ul id="learn-list-grid">
+            <!-- <div class="learn-row-list"> -->
+            <li><a href="#" class="learn-list-item">Blockchain security</a></li>
+            <li><a href="#" class="learn-list-item">Blockchain security</a></li>
+            <li><a href="#" class="learn-list-item">Blockchain security</a></li>
+            <!-- </div> -->
+            <!-- <div class="learn-row-list"> -->
+            <li><a href="#" class="learn-list-item">Foundry</a></li>
+            <li>
+              <a href="#" class="learn-list-item">Ether Js and Web3 Js</a>
+            </li>
+            <li><a href="#" class="learn-list-item">Solidity</a></li>
+            <!-- </div> -->
+            <!-- <div class="learn-row-list"> -->
+            <li>
+              <a href="#" class="learn-list-item">Smart Contract Auditing</a>
+            </li>
+            <li><a href="#" class="learn-list-item">Tokenomics</a></li>
+            <li>
+              <a href="#" class="learn-list-item">Decentralized Finance</a>
+            </li>
+            <!-- </div> -->
           </ul>
         </section>
         <section id="testimonial-section">
-          <h2>
-            <span> Don't take our word for it. </span
-            ><span>See what our Students say</span>
-          </h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            dolorem quis libero veniam voluptas cumque nemo veritatis officia
-            quisquam, accusamus, vero dolores nobis beatae maxime doloremque
-            nesciunt dolorum quasi laborum.
-          </p>
-          <div>
-            <img src="images/Ellipse 1.svg" alt="" />
-            <p>REPPIN_THE_BLOCK</p>
-            <p>Professional User</p>
+          <div id="top-testimonial-section">
+            <h4 id="testimonial">TESTIMONIALS</h4>
+            <h2 id="testimonial-heading">
+              <span> Don't take our word for it. </span
+              ><span>See what our Students say</span>
+            </h2>
+          </div>
+          <div id="bottom-testimonial-section">
+            <p class="bottom-lorem-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              dolorem quis libero veniam voluptas cumque nemo veritatis officia
+              quisquam, accusamus, vero dolores nobis beatae maxime doloremque
+              nesciunt dolorum quasi laborum.
+            </p>
+            <div id="user-testimonial">
+              <img src="images/Ellipse 1.svg" alt="" />
+              <p id="reppin">REPPIN_THE_BLOCK</p>
+              <p id="professional">Professional User</p>
+            </div>
           </div>
         </section>
       </article>
