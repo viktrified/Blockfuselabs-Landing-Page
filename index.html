@@ -9,9 +9,9 @@
   <body>
     <header>
       <div class="header">
-        <div id="purple-box">
-          <span><img src="images/Group 1.svg" alt="" /></span>
-        </div>
+        <a href="index.html" id="purple-box">
+          <img src="images/Group 1.svg" alt="" />
+        </a>
         <nav>
           <ul class="top-nav-ul">
             <li class="top-nav-li"><a href="#" class="top-nav-a">Home</a></li>
@@ -35,8 +35,7 @@
             <strong class="blockchain-bold">Blockchain</strong>
           </h2>
           <p class="top-lorem-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, odit
-            doloremque<br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, <br />
             vitae, iusto possimus quisquam veritatis obcaecati eaque ut<br />
             alias asperiores tempora. Tenetur pariatur
           </p>
@@ -46,19 +45,25 @@
           <img
             src="images/bfl.png"
             alt="blockchain image"
-            class="blockchain-image"
           />
         </section>
       </article>
-      <article id="">
-        <div class="later">
-          <img src="images/octicon_play-24.svg" alt="" />
-        </div>
+      <article>
         <section class="our-story-video-section">
-          <h2>Our Story</h2>
-          <div id="video"></div>
+          <div class="later">
+            <img src="images/octicon_play-24.svg" alt="" />
+          </div>
+          <h2 id="our-story">Our Story</h2>
+          <div id="video">
+            <video
+              controls
+              src="video/Blockfuse Labs Grand Opening Ceremony_ Empowering the Future of Web3 Development.mp4"
+              width="970"
+              height="600"
+            ></video>
+          </div>
         </section>
-        <section id="learn-list">
+        <section id="learn-list-section">
           <h2 class="learn-list-heading">What you would learn</h2>
           <ul id="learn-list-grid">
             <!-- <div class="learn-row-list"> -->
@@ -109,42 +114,48 @@
       </article>
       <article>
         <section id="faq-section">
-          article.
-          <h2>FAQ's</h2>
-          <p>
-            <span>
-              Everything you need to know about Blockfuselabs. Can't find the
-              answer you're looking for?
-            </span>
-            <span
-              >Please <a href="">chat to our friendly team</a>, or
-              <a href="">reach out to us on Telegram channel Here.</a>
-            </span>
-          </p>
-          <h3>
-            <a href="#">What is Blockfuselabs?</a
-            ><img src="images/ei_plus.svg" alt="" />
-          </h3>
-          <h3>
-            <a href="#">Who can join Blockfuselabs cohort?</a
-            ><img src="images/ei_plus.svg" alt="" />
-          </h3>
-          <h3>
-            <a href="#">What programs does Blockfuselabs offer?</a
-            ><img src="images/ei_plus.svg" alt="" />
-          </h3>
-          <h3>
-            <a href="#">How do I enroll in a Blockfuselabs cohort?</a
-            ><img src="images/ei_plus.svg" alt="" />
-          </h3>
-          <h3>
-            <a href="#">How can Blockfuselabs help with my career?</a
-            ><img src="images/ei_plus.svg" alt="" />
-          </h3>
-          <h3>
-            <a href="#">Is there a community I can join?</a
-            ><img src="images/ei_plus.svg" alt="" />
-          </h3>
+          <div id="up-faq">
+            <h2>FAQ's</h2>
+            <p>
+              <span>
+                Everything you need to know about Blockfuselabs. Can't find the
+                answer you're looking for?
+              </span>
+              <span
+                >Please <a href="">chat to our friendly team</a>, or
+                <a href="">reach out to us on Telegram channel Here.</a>
+              </span>
+            </p>
+          </div>
+          <div id="down-faq">
+            <h3 class="question-box">
+              <a href="#" class="question">What is Blockfuselabs?</a
+              ><img src="images/ei_plus.svg" alt="" />
+            </h3>
+            <h3 class="question-box">
+              <a href="#" class="question">Who can join Blockfuselabs cohort?</a
+              ><img src="images/ei_plus.svg" alt="" />
+            </h3>
+            <h3 class="question-box">
+              <a href="#" class="question"
+                >What programs does Blockfuselabs offer?</a
+              ><img src="images/ei_plus.svg" alt="" />
+            </h3>
+            <h3 class="question-box">
+              <a href="#" class="question"
+                >How do I enroll in a Blockfuselabs cohort?</a
+              ><img src="images/ei_plus.svg" alt="" />
+            </h3>
+            <h3 class="question-box">
+              <a href="#" class="question"
+                >How can Blockfuselabs help with my career?</a
+              ><img src="images/ei_plus.svg" alt="" />
+            </h3>
+            <h3 class="question-box">
+              <a href="#" class="question">Is there a community I can join?</a
+              ><img src="images/ei_plus.svg" alt="" />
+            </h3>
+          </div>
         </section>
       </article>
     </main>
