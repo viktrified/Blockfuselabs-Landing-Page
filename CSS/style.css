@@ -150,156 +150,64 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-  gap: 66px;
-
-  position: absolute;
-  width: 1154px;
-  height: 408px;
-  left: 144px;
-  top: 1554px;
+  position: relative;
+  bottom: 250px;
 }
 
 .learn-list-heading {
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-
-  width: 471px;
-  height: 51px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  width: 471px;
-  height: 51px;
-
-  font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 51px;
-  /* identical to box height */
-  text-align: center;
-
-  color: #000000;
 }
 
 #learn-list-grid {
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
-  align-content: flex-start;
   padding: 0px;
   gap: 36px 25px;
+  list-style: none;
+}
 
-  width: 1154px;
-  height: 291px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
+#learn-list-grid li {
+  padding: 20px 10px;
+  border: 1px solid rgba(0, 127, 255, 0.19);
+  box-sizing: border-box;
+  border-radius: 20px;
 }
 
 .learn-list-item {
-  box-sizing: border-box;
+  color: black;
 
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 0px;
-  gap: 42px;
-
-  width: 368px;
-  height: 73px;
-
-  background: #ffffff;
-  border: 1px solid rgba(0, 127, 255, 0.19);
-  border-radius: 20px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  /* Frame 10 */
-
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px 30px;
   gap: 10px;
-
-  width: 368px;
-  height: 53px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  /* Blockchain security */
+  text-decoration: none;
 
   width: 308px;
   height: 33px;
 
-  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
   line-height: 33px;
-  /* identical to box height */
   text-align: center;
-
-  color: #000000;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 1;
 }
 
 #testimonial-section {
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
   gap: 34px;
-
-  position: absolute;
-  width: 1152px;
-  height: 489px;
-  left: 144px;
-  top: 2071px;
+  position: relative;
+  bottom: 180px;
 }
 
 #top-testimonial-section {
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-  gap: 31px;
-
-  width: 459px;
-  height: 137px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 #bottom-testimonial-section {
@@ -307,241 +215,116 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px;
   gap: 50px;
-
-  width: 1152px;
-  height: 318px;
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
 }
 
 #testimonial {
-  width: 175px;
-  height: 18px;
-
   font-family: "Roboto Slab";
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
+  font-size: 17px;
   letter-spacing: 6px;
   text-transform: uppercase;
-
   color: #a6a6a6;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 #testimonial-heading {
   width: 459px;
-  height: 88px;
-
   font-family: "Roboto Slab";
-  font-style: normal;
   font-weight: 400;
   font-size: 33px;
   line-height: 44px;
   text-align: center;
   letter-spacing: 2px;
-
-  color: #000000;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .bottom-lorem-text {
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px 80px;
-  gap: 10px;
-
-  width: 1152px;
-  height: 120px;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
 
   width: 992px;
-  height: 120px;
-
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  /* or 150% */
   text-align: center;
 
   color: #a6a6a6;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 1;
 }
 
 #user-testimonial {
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  gap: 12px;
-
-  width: 171px;
-  height: 148px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 #reppin {
-  width: 171px;
-  height: 21px;
-
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
-
+  font-size: 17px;
   color: #d9d9d9;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 #professional {
-  width: 171px;
-  height: 17px;
-
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 17px;
-  text-align: center;
+  font-size: 15px;
 
   color: #a6a6a6;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
 }
 
 #faq-section {
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-  gap: 32px;
-
-  width: 1424px;
-  height: 863px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
+  position: relative;
+  bottom: 70px;
 }
 
 #up-faq {
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-  gap: 24px;
-  width: 1424px;
-  height: 129px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
 }
 
-#down-faq {
-  /* Auto layout */
+.faq-link {
+  color: black;
+  text-decoration: none;
+}
+
+/* #down-faq {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
-
-  width: 1030px;
-  min-width: 1030px;
-  height: 702px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
+} */
 
 .question-box {
   box-sizing: border-box;
-
-  /* Auto layout */
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
-  padding: 32px 0px;
-  gap: 22px;
-
-  width: 1030px;
-  height: 117px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
 }
 
 .question {
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 22px;
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 100;
+  padding-bottom: 50px;
+}
 
-  width: 1030px;
-  height: 53px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
+.plus-img {
+  width: 40px;
 }
 
 footer {
@@ -551,42 +334,34 @@ footer {
   padding: 8px;
   gap: 8px;
 
-  position: absolute;
-  width: 1152px;
-  height: 172px;
-  left: calc(50% - 1152px / 2);
-  top: 3670px;
-
   background: #ffffff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  gap: 177px;
-
-  width: 1136px;
-  height: 156px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
 }
 
-footer ul {
+footer #bottom-nav {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
-  gap: 56px;
+  color: black;
+  list-style: none;
+  font-size: 20px;
+}
 
-  width: 581px;
-  height: 18px;
+#bottom-nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 15px;
+}
 
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+footer #footer-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: black;
+  list-style: none;
+  font-size: 20px;
 }
